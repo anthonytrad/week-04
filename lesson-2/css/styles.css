@@ -1,0 +1,81 @@
+/* Jack Daniels */
+#jack-daniels {
+	background-color: #000;
+	color: #fff;
+}
+
+#jack-daniels .liquor-label {
+	background: url("../images/jack.jpg") no-repeat;
+	width: 774px;
+	height: 300px;
+	text-indent: -99999px;
+}
+
+#jack-daniels nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#jack-daniels nav a:hover {
+	text-decoration: underline;
+	color: #ffe6b3;
+}
+
+#jack-daniels nav a.active {
+	color: #333;
+}
+
+/* Kraken */
+#kraken {
+	background-color: #66cccc;
+	color: #fff;
+}
+
+#kraken .liquor-label {
+	background: url("../images/kraken.png") no-repeat;
+	width: 400px;
+	height: 400px;
+	text-indent: -99999px;
+}
+
+#kraken nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#kraken nav a:hover {
+	text-decoration: underline;
+	color: #04507e;
+}
+
+#kraken nav a.active {
+	color: blue;
+}
+
+/* Hendricks */
+#hendricks {
+	background-color: #999;
+	color: #fff;
+}
+
+#hendricks .liquor-label {
+	background: url("../images/hendricks.jpg") no-repeat;
+	width: 1280px;
+	height: 905px;
+	text-indent: -99999px;
+}
+
+#hendricks nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#hendricks nav a:hover {
+	text-decoration: underline;
+	color: #666;
+}
+
+#hendricks nav a.active {
+	color: green;
+}
+

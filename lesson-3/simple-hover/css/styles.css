@@ -1,0 +1,10 @@
+.pokemon {
+	background: url("../images/pokemon.gif");
+	width: 650px;
+	height: 550px;		
+}
+
+.pokemon:hover {
+	background-position: 0 -550px;
+}
+

@@ -1,0 +1,50 @@
+.clear {
+	clear: both;
+}
+
+ul.skyline {
+	list-style-type: none;
+}
+
+ul.skyline li {
+	background: url("../images/skyline.jpg") no-repeat;
+	height: 200px;
+	float: left;
+}
+
+/* Default State */
+ul.skyline li.harbour {
+	width: 100px;
+}
+
+ul.skyline li.scotia {
+	width: 75px;
+	background-position: -100px 0;
+}
+
+ul.skyline li.canada {
+	width: 105px;
+	background-position: -175px 0;
+}
+
+ul.skyline li.other {
+	width: 120px;
+	background-position: -280px 0;
+}
+
+/* Hover State */
+ul.skyline li.harbour:hover {
+	background-position: 0 -200px;
+}
+
+ul.skyline li.scotia:hover {
+	background-position: -100px -200px;
+}
+
+ul.skyline li.canada:hover {
+	background-position: -175px -200px;
+}
+
+ul.skyline li.other:hover {
+	background-position: -280px -200px;
+}
